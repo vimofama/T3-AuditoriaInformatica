@@ -21,3 +21,9 @@ Agregar dentro de la url como query de `/api/auditoria/1?user=usuario_db&passwor
 | `/ap/auditoria/7` | Posibles relaciones que existen (Triggers)                                                          |
 | `/ap/auditoria/8` | Relaciones que deberian existir                                                                     |
 | `/ap/auditoria/9` | Relaciones que existen (FK)                                                                         |
+
+# Ejecucion
+
+```
+npm run start o pnpm start
+```
