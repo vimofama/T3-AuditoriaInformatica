@@ -1,9 +1,11 @@
 import express from "express";
 import sql from "mssql";
 import winston from "winston";
+import cors from "cors";
 
 const app = express();
 const port = process.env.PORT || 3000;
+app.use(cors());
 
 // Configuración de Winston para logs personalizados
 const logger = winston.createLogger({
